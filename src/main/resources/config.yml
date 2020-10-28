@@ -1,0 +1,23 @@
+Settings:
+  #Set to -1 to disable the max.
+  MaxGameRunningAtOnce: 30
+  #This is the level of speed that the player will receive
+  PlayerSpeed: 2
+  Worlds:
+    AutoCreateWorlds: true
+    #If auto create worlds is set to false and this number is hit for all available worlds it will wait for a game to end before creating a new game.
+    MaxAmountOfGamesPerWorld: 30
+  Crewmates:
+    Tasks:
+      RandomTasks:
+        Enabled: true
+        AmountPerCrewmate: 5
+      EnabledTasks:
+        #Have a list of tasks enabled here
+        Task1:
+          enabled: true
+  Impostor:
+    AllowVenting: true
+    AllowSabotaging: true
+    #In seconds
+    KillCooldown: 20
